@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* "first-letter"  bu birinchi harifi degan ma'noni bildiradi*/
+        h1::first-letter{
+            font-size: 60px;
+
+        }
+        /* undan keyingisi birinch qatoti yani quydagicha yoziladi  */
+        h1::first-line{
+            font-size: 50px;
+        }
+        /* brauser oynamizdagi ma'lumotlarni kursor bn belgilaganimizda orqa fondini rangini ham ma'lunotni rangini ham ozgartirish imkoni bizda mavjud  bu quydagich o'zgartiriladi 
+        agar  h1 deb yozib qoyadigan bolsak bu faqat h1 elementimizgagina  amal qiladi  hich nima yozmiydigon bo'lsak hammasiga taluqliy bo'ladi
+            h1::selection{
+            color: blueviolet;
+            background-color: aqua;
+        }
+        */
+        ::selection{
+            color: blueviolet;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Lorem ipsum dolor sit amet ipsum dolor sit amet consectetur adipisicing elit. Vitae nisi consequuntur porro officia modi nihil labore! Saepe, ducimus. Dicta sapiente ab eum illo sequi voluptates consequuntur facilis voluptatibus accusamus blanditiis..</h1>
+         <h1>Lorem ipsum dolor sit amet.</h1>
+           <h1>Lorem ipsum dolor sit amet.</h1>
+              <h1>Lorem ipsum dolor sit amet.</h1>
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                  <h1>Lorem ipsum dolor sit amet.</h1>
+                    <h1>Lorem ipsum dolor sit amet.</h1>
+                      <h1>Lorem ipsum dolor sit amet.</h1>
+                       <h1>Lorem ipsum dolor sit amet.</h1>
+                         <h1>Lorem ipsum dolor sit amet.</h1>
+      </div>
+</body>
+</html>

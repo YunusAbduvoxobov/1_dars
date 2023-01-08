@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       a{
+        text-align: center;
+        margin: 100px;
+        width: 210px;
+        height: 50px;
+        padding: 40px;
+        display: block;
+        border: 2px solid green;
+        line-height: 50px;
+       }
+       /* befor elementi kiritgan ma'lumotimizni oldidan bitta ma'lumot qoyib beradi */
+       a::before{
+        content: "salom";
+       }
+       /* bu esa malumotdan keyin yana bitta ma'lumot qo'yib beradi */
+       a::after{
+        content: "salom";
+       }
+    </style>
+</head>
+<body>
+    <a href="">Wellcome</a>
+</body>
+</html>

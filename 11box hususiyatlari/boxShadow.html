@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        div{
+         
+            margin: 50px auto;
+            width: 300px;
+            height: 400px;
+            background-color: aqua;
+            /*   box-shadow: ; hususiyati o'ziga bir nechta qiymatlarni qabul qiladi bular 
+             1 x o'qi boyicha
+             2 y o'qi bo'yicha
+             3 tarqalish radiusi
+             4 yani biz berayotgan rangimiz qancha joyini to'laqonli egallasin deb px da qiymat beramiz
+             5 shu soyaning  rangi
+             */
+           
+            box-shadow: 0 0 10px 6px blue;
+        }
+        .inset{
+            margin: 50px auto;
+            width: 300px;
+            height: 400px;
+            background-color: rgba(78, 24, 224, 0.315);
+            /* 6 inset qiymati bu shu soyani ichkariga tushirib beradi */
+            box-shadow: 0 0 10px 6px rgb(28, 211, 22) inset;
+        }
+        
+    </style>
+</head>
+<body>
+    <div></div>
+
+    <div class="inset"></div>
+    <p>Lorem, ipsum dolor sit amet </p>
+</body>
+</html>

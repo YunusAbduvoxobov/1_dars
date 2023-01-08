@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /*  birinchi koradiganmimiz */
+        [align]{
+            color: blue;
+            font-family: tahoma;
+        }
+        /* 2 korinishi */
+        h1[align]{
+            color: blueviolet;
+            background-color: aqua;
+        }
+        /*  ~ belgi atribut qiymatlari bo'lsa */
+        [align~="right"]{
+            color: red;
+            background-color: greenyellow;
+        }
+        [class|=he-ader]{
+            color: orange;
+        }
+        /*  ^ bu belgi boshi qanday boshlansa  */
+        [class^="he"]{
+            color: yellowgreen;
+        }
+        /* $ bu belgi tugashini  yani oxiri qanday soz yoki belgi bn tugasa hannmasi shu byuruqlarga amal qilsin */
+        [class$="text"]{
+            background-color: turquoise;
+
+        }
+
+
+        /* atribut sellektorlari huddi shu korinishida yoziladi */
+
+    </style>
+</head>
+<body>
+    <h1 align="left">Lorem ipsum dolor sit amet.</h1>
+     <h2 align="right">Lorem ipsum dolor sit amet.</h2>
+       <p align="center">Lorem ipsum dolor Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam nam aspernatur hic dicta delectus facere explicabo, obcaecati non cupiditate aut voluptatum, asperiores nulla. Iure ipsum itaque consequatur ullam laboriosam consequuntur. sit amet.</h1>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+
+
+
+    <b class="he-ader">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus adipisci suscipit laborum, nulla dolore obcaecati culpa doloribus sed, deleniti et temporibus praesentium hic voluptatum enim est ipsum! Eaque, ipsam unde!</b>
+    <b class="he_ader">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus adipisci suscipit laborum, nulla dolore obcaecati culpa doloribus sed, deleniti et temporibus praesentium hic voluptatum enim est ipsum! Eaque, ipsam unde!</b>
+    <b class="heAder">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus adipisci suscipit laborum, nulla dolore obcaecati culpa doloribus sed, deleniti et temporibus praesentium hic voluptatum enim est ipsum! Eaque, ipsam unde!</b>
+    <b class="headertext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus adipisci suscipit laborum, nulla dolore obcaecati culpa doloribus sed, deleniti et temporibus praesentium hic voluptatum enim est ipsum! Eaque, ipsam unde!</b>
+
+
+
+
+</body>
+</html>

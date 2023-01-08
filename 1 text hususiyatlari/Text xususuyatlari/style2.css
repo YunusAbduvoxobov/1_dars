@@ -1,0 +1,22 @@
+/* text-align: left;  
+/* text-shedov: 2px 5px 7px green; */
+/* font-family: Tahoma; */ 
+h1{
+    text-align: center;
+    text-shadow: 0px 0px 10px green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    border-bottom: 5px dashed;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    text-decoration-color: green;
+    direction: ltr;
+    unicode-bidi: isolate;
+    text-transform: capitalize;
+}
+p{
+    text-indent: 50px;
+    letter-spacing: 10px;
+    word-spacing: 30px;
+    line-height: 10px;s
+}

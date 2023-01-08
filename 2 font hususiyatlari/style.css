@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    font: italic small-caps 200 20px/80px algerian ;
+    /* font-size: 100px;
+    font-family: serif; 
+    font-weight: 500;
+    font-style: italic; */
+    /* font-family: sans-serif; */
+    /* sans-serif bu kiritgan ma'lumotimizni oddiy korinishda chiqarib beradi */
+    /* font-family: serif; */
+    /* serif ni o'zi esa hariflarni burchakli qilib chiqarib beradi */
+    /* font-family: monospace; */
+    /* monospace bu sal kichikro qilib chiqarib beradi  */
+    /* font-family: algerian ; */
+    /* bu kampyuterimizda bor shriftlarni qabul qiladi  */
+    /* font-size: 30px; */
+    /* Bu kiritayotgan ma'lumotimizni razmerini bildiradi */
+    /* font-weight: 500; */
+    /* bu hususiyat o'ziga 100dan 900 gach bolgan qiymatlarni qabul qiladi  100px eng ingichka holati 900px esa eng yog'on holativa bulardan tashqari yana 
+    1 bold   bu oziga 700px qiymatni qabul qiladi 
+    2 bolder bu esa sal yogonlashtirilgani 
+    3 lighter  bu sal kamaytiriulgani */
+    /* font-variant: ; */
+     /* bu o'ziga 2 hil hususiyatni qabul qiladi  yani bular
+     1 normal
+     2 small-caps bu suzimizni bosh harifini sal kattaroq va qolgan harflarni kichikroq qilib qo'yadi*/
+     /* font-style: italic; */
+    /* bu o'ziga bir qancha hususiyatlarni qabul qiladi bular
+    1 italic bu kiritgan ma'lumotimizni kursiv yani bir tomonga sal oggan holatdda chiqarin beradi
+    2 normal  holati bu u ning boshlangich holat 
+      */
+      /* font: italic small-caps 200 20px/40px algerian ; */
+     /* hususiyati bu hanma qiymadlainu qisqaroq varyanti */
+
+
+}

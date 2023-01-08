@@ -1,0 +1,98 @@
+/* 
+background-color- ORQA FONDINI RANGI
+
+background-image- ORQA FONDGA RANG BERISHDA FOYDALANILADI VA RASIMNI FAQAT VERTIKAL VA GARIZANTAL RAVISHDA TAKRORLAYDI
+background-repeat-BU HUSUSIYATNI 3 XIL QIYMATI MAVJUD BULAR 
+"1 repeat-x,
+ 2 repeat-y va
+  3 no-repeat"
+   bu 1 x oqi boyicha takrorlaydi
+    2 y oqi boyich takrorlaydi
+     3 esa takrorlanishini oldini oladi
+
+background-position- bu hususiyat esa biz qoygan rasmimizni ekranni qaysi joyida joylashishini bilan shug'ullanadigan hususiyat va buni qo'shimch value lari ham mavjud bular 
+1"top,
+2 right,
+3 bottom, 
+4 left," qiymatlari mavjud misol uchun 
+
+background-attachment-bu properti o'ziga 2 xil qiymatni qabul qiladi bular 
+1 fixsed va 
+2 scroll  qiymatlarni qabul qiladi 
+
+background (shorthand property) */
+
+
+/* 
+body {
+    background-color: lightblue;
+  }
+  */
+
+
+ 
+  /* body {
+  background-image: url("./img/shahar.jpg");
+} */
+
+
+
+/* body { */
+  /* background-image: url("./img/shahar.jpg"); */
+  /* background-color: burlywood;
+  background-repeat: repeat-x;
+  width: 500px;
+} */
+
+
+
+
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  
+
+  /*
+     right top
+     right bottom
+     right center
+
+     center 
+     center top
+     center bottom
+
+     left top
+     left center
+     left bottom
+
+       background-position-x: right ;
+         background-position-x: center;
+           background-position-x: left;
+
+         background-position-y: right;
+         background-position-y: center;
+         background-position-y: left;
+         
+         % va px da qiymat bersak ham bo'ladi 
+
+         background-position: 50% 40% ;
+
+         Yaniy x o'qi bo'yicha 50%
+         Va y o'qi bo'yicha 50%
+         
+          Hoxlasak shu ko'rinishda ham qiymat bersak bo'ladi
+     */
+
+} 
+
+
+
+/* #rasm img{
+  border: 2px solid blue;
+  width: 500px;
+  height: 400px;
+  margin-top: 15%;
+  margin-left: 35%;
+
+}  */

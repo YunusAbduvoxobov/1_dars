@@ -1,0 +1,56 @@
+h1{
+    text-align: center;  /* reight,left, justify */
+    /* text-shadow: 0px 5px 20px red;  */
+    font-family: Tahoma;
+    font-size: 10px;
+    /* border-bottom: 4px dashed rgb(18, 197, 161); */
+    text-transform:  capitalize;
+    text-decoration-style: solid;
+    text-decoration:   overline;
+    text-decoration-color: blue;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+   
+}
+p{
+    text-indent: 25px;  /* bu oziga px/da qiymat qabul qiladi yani "abzas"uchun */ 
+    letter-spacing: 6px;
+     /*bu hariflar orasidagi razmeri  */
+     word-spacing: 30px;
+     /* bu har bir sozlar orasidagi masofa */
+     line-height: 30px;
+     /* bu soz va hariflar balandligi */
+}
+h2{
+    text-transform:  lowercase;
+    /* capitalize bu har bir soz boshini kotta qlib beradi 
+       uppercase bu barcha harflarni kotta qlib beradi
+       lowercase bu esa barcha harflarni kotta qlib beradi*/
+       text-decoration: none;
+       /* bu ozini boshlangich qiymati
+          overline bu textni tepasidan chizib beradi 
+          line-through bu textni ustiga chizib beradi
+          undirline bu esa textni tagiga chizib beradi*/
+        /* bu textning rangi */
+          text-decoration-line: overline ;
+          /* line-tyrough,
+          overline,
+           undirline, 
+           none qiymatlarini qabul qiladi */
+            text-decoration-color: blue;
+          
+
+          text-decoration-style: solid;
+          /* yani chizziqqi turi dotted dashshed */
+          direction: ltr;
+          /* bu oziga 2 hil qiymadni qabul qiladi yani ltr va rtl */
+          unicode-bidi: bidi-override;
+          /* bu esa directionni qoshimch propertitsi */
+
+
+}
+
+
+
+
+

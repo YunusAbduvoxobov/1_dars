@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #salom{
+            /* bu malumotimizni yonma yon qilib qo'yib beradi  va 2 ta blokka ham bir hil "inline-block" deb yozib qo'yishimiz kerak bo'ladi*/
+            display: inline-block;
+            /* "block" bu o'zini boshlang'ich qiymati */
+            /* display: block;
+            "inline" esa bu width va height qiymatlarini umuman etiborga olmagan  holda malumot razmeriga nisbatan chegarani qabul qiladi
+            display: inline;
+            "none" qiymati esa blokni yoq qilib qo'yadigan qiymati hisoblanadi
+            display: none; */
+            margin: 50px auto;
+            width: 300px;
+            height: 400px;
+            border: 2px solid blue;
+        
+
+        }
+        div{
+            display: inline-block;
+            margin: 50px auto;
+            width: 300px;
+            height: 400px;
+            border: 2px solid blue;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- display hususiyatlari asosan bloklarga nisbatan ishlatiladi -->
+    <div id="salom">
+        <h1>
+            salom
+        </h1>
+    </div>
+
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto nihil explicabo fugit deserunt hic vitae. Nisi, est facilis, esse dolor necessitatibus impedit neque eos iure expedita molestiae veniam itaque in?</p>
+    </div>
+</body>
+</html>

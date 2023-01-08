@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        input[type=text]{
+      
+            background-color: yellow;
+            color: rgb(26, 153, 153);
+            /* kursorimizzi rangini o'zgartirish imkoniga ham egamiz yani quydagicha  */
+            caret-color: crimson;
+            box-shadow: 0 0 5px 2px yellowgreen inset;
+        }
+
+
+
+
+        body{
+            /* h tegimizni oldiga raqam son qoyish uchun foydalanami YAni bitta o'zgaruvchi hosil qilib olamiz */
+            counter-reset: sonlar;
+        }
+        
+        h1::before{
+            /*   counter sanash kodi desak  -increment  yani biyyaga oshishi*/
+            counter-increment: sonlar;
+            content: counter(sonlar)"-";
+        }
+
+
+
+        div{
+            counter-reset: raqam;
+            line-height: 30px;
+        }
+        h2{
+            counter-reset: raqam2;
+        }
+        
+        
+        h2::before{
+            counter-increment: raqam;
+            content: counter(raqam)"-";
+        }
+        h3::before{
+            counter-increment: raqam2;
+            content: counter(raqam)"-" counter(raqam2)"_";
+        }
+
+
+    </style>
+</head>
+<body>
+    <input type="text">
+
+
+
+  <h1>Dasturlash</h1>
+  <h1>Frontend</h1>
+  <h1>Bekend</h1>
+
+
+<div>
+    <h2>Kurslar</h2>
+
+    <h3>Mobil</h3>
+    <h3>Frontend</h3>
+    <h3>Bekent</h3>
+    <h3>Descktop</h3>
+  
+    <h2>Tillar</h2>
+  
+    <h3>Rus tili</h3>
+    <h3>Ingliz tili</h3>
+    <h3>Arab tili</h3>
+    <h3>Xitoy tili</h3>
+</div>
+</body>
+</html>

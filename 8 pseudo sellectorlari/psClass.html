@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #batafsil:hover{
+            color: blue;
+
+        }
+        h1:active{
+            background-color: yellowgreen;
+        }
+        /* ":focus" pseudo selectori asosan a teglarida va form teglarida ishlaydi qogan teglarga taluqli emas */
+        #batafsil:focus{
+            background-color: aqua;
+            color: red ;
+        }
+
+        /* ":first-child" sellektori bu yani birinchi birinci farzand elementi degan manoni bildiradi  bu kalit sozi ishlashi uchun bularni hanmasi bitta bitta blok tegini ichida bolishi kk misol uchun "div" tegini ichida bolsin*/
+        /* birinchisi bolgani kabi oxirgisi 
+        1 first-child   birinchisi
+        2 last-child    oxirgisi 
+        3 nth-child(4)   bu chi degan manoni bildiradi () bu qavs ichiga o'zimiz hohlagan sonni kiritib qo'yamiz */
+        h1:first-child{
+                 color: red;
+        }
+         
+       #not:checked{
+           outline: 3px solid green;
+           
+        }
+        #not:not(checked){
+            outline: 3px solid orange;
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- pseudo selectorlari asosan 2 guruhga bolinadi
+         1 pseudo class 
+         2 pseuda element -->
+         <a href="" id="batafsil">Batafsil</a>
+         <a href="">Cantact</a>
+
+  <div>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+     <h1>Lorem ipsum dolor sit amet.</h1>
+       <h1>Lorem ipsum dolor sit amet.</h1>
+          <h1>Lorem ipsum dolor sit amet.</h1>
+            <h1>Lorem ipsum dolor sit amet.</h1>
+              <h1>Lorem ipsum dolor sit amet.</h1>
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                  <h1>Lorem ipsum dolor sit amet.</h1>
+                   <h1>Lorem ipsum dolor sit amet.</h1>
+                     <h1>Lorem ipsum dolor sit amet.</h1>
+  </div>
+    
+<form action="">
+    <input type="checkbox" checked id="not">
+</form>
+
+</body>
+</html>
